@@ -1,0 +1,837 @@
+html {
+    
+}
+
+body {
+    background-image: linear-gradient(#97D9E1, #D9AFD9);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 1024px;
+    min-height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.material-symbols-outlined {
+    color: white;
+    padding-top:60px;
+    padding-right: 300px;
+   
+
+    
+}
+.top {
+    display: flex;
+}
+header {
+    align-items: center;
+    flex: 1;
+    padding-top: 30px;
+    padding-right:10px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+header i {
+    align-items: right;
+    margin-left: 54px;
+    font-size: 30px;
+
+}
+
+nav {
+    padding-top: 20px;
+    padding-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 30px;
+    flex: 1;
+}
+
+.navbutton {
+    display: inline-block;
+    font-family:'Playfair';
+    padding: 10px 25px;
+    box-sizing:border-box;
+    margin-top: 25px;
+    /* smooth the border */
+    border: 1px solid white;
+    
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    width: 1024px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+
+.onepage {
+    width: 1024px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.onepage .herobox1 {
+    flex: 4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    
+}
+
+.onepage .herobox1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.mylink {
+    display: inline-block;
+    justify-content: space-between;
+    
+    
+}
+
+.my link a {
+    background-color:#9599E2;
+}
+.mybutton {
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid white;
+    background-color:#584E62;
+    margin-right: 8px;
+}
+.mybutton:hover {
+
+    background-color: #9599E2;
+    transition-duration: 500ms;
+}
+
+.onepage .herobox2 {
+    background-image: url(images/IMG_6304.jpg);
+    height:350px;
+    width:500px;
+    background-size: cover;
+    flex: 6;
+    padding-bottom:80px;
+    
+}
+
+.icons {
+    flex: 1;
+    justify-content: space-between;
+    display:flex;
+}
+
+
+
+/* 第二層顯示 */
+.travel {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.Feature1 {
+    height: 350px;
+    background-image: url(images/01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 7;
+    margin-right: 15px;
+    position: relative;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid #9599E2;
+    
+    
+
+
+}
+
+.mask {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    opacity: 65%;
+
+}
+
+h4 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 10%;
+    color: rgb(1, 68, 176);
+    opacity: 1;
+    font-weight: bold;
+    text-emphasis-color: rgb(1, 68, 176);
+
+
+}
+
+i {
+    margin-top: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 5px;
+    color: white;
+    
+}
+ 
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    line-height: 10%;
+    text-align: center;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid #9599E2;
+}
+
+.element1 {
+    flex: 1;
+    height: 35%;
+    min-height: 110px;
+    
+  
+}
+.element1 a {
+    text-decoration: none;
+}
+.element2 {
+    flex: 1;
+    margin-top: 10px;
+    height: 35%;
+    min-height: 110px;
+
+
+}
+.element2 a {
+    text-decoration: none;
+}
+
+.element3 {
+    flex: 1;
+    margin-top: 10px;
+    height: 35%;
+    min-height: 110px;
+
+}
+.element3 a {
+    text-decoration: none;
+}
+
+.items {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Feature2 {
+    height: 350px;
+    background-image: url(images/IMG_5961.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 7;
+    margin-left: 15px;
+    position: relative;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid #9599E2;
+
+
+}
+
+.element1:hover {
+
+    background-color: #9599E2;
+    transition-duration: 500ms;
+}
+.element2:hover {
+
+    background-color: #9599E2;
+    transition-duration: 500ms;
+}
+.element3:hover {
+
+    background-color: #9599E2;
+    transition-duration: 500ms;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:white;
+}
+
+/* 第二頁面 */
+
+.twopage {
+    width: 1024px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.herobox3 {
+    background-image: url(images/15.jpg);
+    height:350px;
+    width:500px;
+    background-size: cover;
+    flex: 4;
+    padding-bottom:80px;
+}
+.herobox4 {
+    flex: 6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    
+}
+
+.herobox1 a {
+    text-decoration: none;
+    color: white;
+}
+.testmonials {
+    width:1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.testmonials p {
+    font-size: 18px;
+}
+
+.tbox {
+    width: 49%;
+    border: 1px solid white;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white; 
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px #584E62;
+    border: 1px solid #9599E2; 
+}
+
+.tbox a {
+    color: white;
+    text-decoration: none;
+}
+ 
+.tbox a:hover {
+
+    background-color: #9599E2;
+    transition-duration: 500ms;
+    border-radius: 5px;
+}
+
+.tbox i {
+    font-size: 14px;
+}
+
+/* 第三頁 */
+
+.herobox5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.herobox5 .cards {
+    padding-top: 15px;
+    height: 250px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+
+
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.card1 {
+    background-image: url(images/06.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    margin-right: 10px;
+    background-position: bottom;
+}
+
+
+.card2 {
+    background-image: url(images/photo/IMG_1706.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    margin-right: 10px;
+    background-position: bottom;
+}
+
+.card3 {
+    background-image: url(images/05.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    margin-right: 10px;
+    background-position: bottom;
+}
+
+.card4 {
+    background-image: url(images/photo/IMG_6088.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card5 {
+    background-image: url(images/09.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card6 {
+    background-image: url(images/13.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card7 {
+    background-image: url(images/07.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card8 {
+    background-image: url(images/14.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card9 {
+    background-image: url(images/IMG_3833.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card10 {
+    background-image: url(images/IMG_3905.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card11 {
+    background-image: url(images/photo/IMG_1697.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card12 {
+    background-image: url(images/photo/IMG_2356.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card13 {
+    background-image: url(images/IMG_6306.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card14 {
+    background-image: url(images/08.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card15 {
+    background-image: url(images/16.png);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card16 {
+    background-image:url(images/04.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card17 {
+    background-image: url(images/IMG_0708.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card18{
+    background-image: url(images/IMG_7378.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card19 {
+    background-image:url(images/photo/IMG_6901.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card20 {
+    background-image: url(images/IMG_7698.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card21 {
+    background-image: url(images/photo/IMG_2517.jpg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card22 {
+    background-image: url(images/11.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card23 {
+    background-image: url(images/12.jpeg);
+    height: 250px;
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card24 {
+    background-image:url(images/photo/IMG_3925.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+.card25 {
+    background-image:url(images/photo/IMG_5332.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card26 {
+    background-image:url(images/photo/IMG_6515.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card27 {
+    background-image:url(images/photo/IMG_9871.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card28 {
+    background-image:url(images/photo/IMG_9474.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card29 {
+    background-image:url(images/photo/IMG_4058.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card30 {
+    background-image:url(images/photo/IMG_7330.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card31 {
+    background-image:url(images/photo/IMG_7380.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card32 {
+    background-image:url(images/photo/IMG_7321.jpg);
+    width: 24%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .body{
+        background-repeat: no-repeat;
+    }
+
+    .onepage {
+        width:98%;
+    }
+    .travel {
+        width:98%;
+    }
+    .items {
+        width:98%;
+    }
+    .tbox {
+        width: 98%;
+    }
+
+    .twopage {
+        display: block;
+    }
+
+    .herobox3 {
+        display: none;
+    }
+
+    .herobox4 {
+        width:90%;
+        margin-left: -90px;
+        padding-right: 50px;
+    }
+
+
+
+}
+
+/* Mobile Phone */
+@media (max-width: 400px) {
+
+    .thirdpage {
+        width: 98%;
+        display: block;
+    }
+
+    .cards {
+        display: block;
+        width:98%;
+        
+    }
+    .travel {
+        padding-left: 20px;
+    }
+
+    .herobox1 {
+        padding-left: 25px;
+    }
+    
+    .elements {
+        display: none;
+    }
+
+    .p {
+        text-align: center;
+    }
+
+    .text {
+        display: none;
+    }
+    
+    /* 照片第一層 */
+    .card17 {
+        width: 98%;
+        height: 900px;
+        margin-bottom: 300px;
+    }
+    .card18 {
+        display:none;
+    }
+    .card19 {
+        display:none;
+    }
+    .card20 {
+        display:none;
+    }
+    .card25 {
+        display:none;
+    }
+    .card26 {
+        display:none;
+    }
+    .card27 {
+        display:none;
+    }
+    .card28 {
+        display:none;
+    }
+    
+
+    /* 照片第二層 */
+    .card2 {
+        margin-top: 400px;
+        width: 98%;
+        height: 900px;
+    }
+    .card1 {
+        display:none;
+    }
+    .card3 {
+        display:none;
+    }
+    .card4 {
+        display:none;
+    }
+
+    /* 照片第三層 */
+    .card5 {
+        margin-top: 1050px;
+        width: 98%;
+        height: 900px;
+    }
+    .card6 {
+        display:none;
+    }
+    .card7 {
+        display:none;
+    }
+    .card8 {
+        display:none;
+    }
+    
+    /* 照片第四層 */
+    .card13 {
+        margin-top: 1710px;
+        width: 98%;
+        height: 900px;
+    }
+    .card14 {
+        display:none;
+    }
+    .card15 {
+        display:none;
+    }
+    .card16 {
+        display:none;
+    }
+
+    /* 照片第五層 */
+    .card9 {
+        margin-top: 2370px;
+        width: 98%;
+        height: 900px;
+
+    }
+    .card10 {
+        display:none;
+    }
+    .card11 {
+        display:none;
+    }
+    .card12 {
+        display:none;
+    }
+    .card21 {
+        display:none;
+    }
+    .card22 {
+        display:none;
+    }
+    .card23 {
+        display:none;
+    }
+    .card24 {
+        display:none;
+    }
+
+    /* 照片第六層 */
+    .card29 {
+        margin-top: 2750px;
+        width: 98%;
+        height: 900px;
+    }
+    .card30 {
+        display:none;
+    }
+    .card31 {
+        display:none;
+    }
+    .card32 {
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
